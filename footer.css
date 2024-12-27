@@ -1,0 +1,106 @@
+.data_footer{
+    display:flex;
+    font-family:Cursive;
+    margin-top:50px;
+    padding-top:50px; 
+    color:white;
+}
+.collegename{
+    color:white;
+    border-right:2px dotted whitesmoke;
+    flex-direction: column;
+}
+.collegename img{
+    height: 100px;
+    width:150px;
+    margin-left:100px;
+}
+.collegename h4{
+    font-size:1rem ;
+    padding:20px;
+}
+.quick_link{
+    margin-top:30px;
+    padding-top:30px;
+    border-right:2px dotted whitesmoke;
+    gap: 2px;
+    width: 500px;
+padding-left: 30px;
+}
+.social_media{
+
+    color:whitesmoke;
+     padding: 30px;
+     margin-top: 30px;
+      text-decoration: underline;
+      gap: 2px;  
+      border-right: 2px dotted whitesmoke;
+       width: 300px;
+}
+.weather{
+    color:white;
+    padding-left:30px;
+    padding-top: 30px;
+    margin-top: 30px;
+
+}
+.datetime-container{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+@media (max-width: 600px) {
+    .data_footer {
+
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .collegename {
+        backdrop-filter: blur(50px);
+        border-radius: 15%;
+        border: 1px solid whitesmoke;
+        border-right: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .collegename img {
+        margin-left: 0;
+        height: 80px;
+        width: 120px;
+    }
+    .collegename h4 {
+        padding: 10px;
+    }
+    .quick_link {
+        width: 410px;
+        backdrop-filter: blur(50px);
+        border-radius: 15%;
+        border: 0px;
+        margin-top: 20px;
+        padding-top: 20px;
+        text-align: center;
+        border: 1px solid whitesmoke;
+    }
+    .social_media{
+        width: 10px;
+        backdrop-filter: blur(50px);
+        border-radius: 15%;
+        width: 100%;
+        border: 0px;
+        margin-top: 20px;
+        padding-top: 20px;
+        text-align: center;
+        border: 1px solid whitesmoke;
+    }
+   .weather{
+    border-radius: 10%;
+    border: 1px solid whitesmoke;
+    padding-bottom: 50px;
+   }
+   .weatherbox{
+    margin-right:20px ;
+   }
+}
